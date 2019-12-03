@@ -1,0 +1,8 @@
+USE MANAGEMENT;
+
+UPDATE CUSTOMER SET createdDate = NOW();
+UPDATE CUSTOMER SET isDeleted = 0;
+
+
+
+
